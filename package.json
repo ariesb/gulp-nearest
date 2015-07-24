@@ -1,0 +1,33 @@
+{
+  "name": "gulp-nearest",
+  "version": "0.1.0",
+  "description": "Filter files and strip off folder hierarchy except for the nerest folder",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ariesb/gulp-nearest.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "shorten",
+    "relative",
+    "path"
+  ],
+  "author": "Aries Beltran <ariesbe@icloud.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ariesb/gulp-nearest",
+  "dependencies": {
+    "through2": "^0.6.1",
+    "gulp-util": "^3.0.1"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "gulp": "^3.8.8",
+    "mocha": "^1.21.4",
+    "pre-commit": "^0.0.9"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
